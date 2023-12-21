@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActionFragment">
+
+    <TextView
+        android:id="@+id/action_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Sinopsis film : Seorang agen CIA yang baru pensiun, Bryan Mills, mencoba membina hubungan lebih dekat dengan putrinya, Kim, yang tinggal bersama ibunya, Lenore, dan ayah tirinya yang kaya, Stuart. Kim meminta izin ayahnya untuk boleh bepergian ke Paris hanya bersama teman perempuannya, Amanda. Bryan mulanya ragu, tetapi setuju setelah ditekan oleh Lenore."
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="913dp"
+        android:src="@drawable/action" />
+</FrameLayout>
